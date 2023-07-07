@@ -67,3 +67,22 @@ body {
 
 /* GALLERY */
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    margin: 20px;
+}
+
+.gallery-item .thumbnail {
+    width: 240px;
+    border: 2px solid ghostwhite;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+
