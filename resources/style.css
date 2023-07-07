@@ -86,3 +86,39 @@ body {
 
 /* FOOTER */
 
+nav {
+    margin-top: 30px;
+}
+
+nav ul {
+    display: block;
+}
+
+nav li {
+    color: ghostwhite;
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+nav a {
+    color: darkorange;
+    line-height: 60px;
+    text-decoration: none;
+    border: 1px solid ghostwhite;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.contact-btn {
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 30px;
+}
+
+.contact-btn a:active {
+    position: relative;
+    bottom: 2px;
+}
+
+/* MEDIA QUERIES */
+
