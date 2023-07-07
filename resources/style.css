@@ -1,0 +1,47 @@
+/* UNIVERSAL STYLES */
+
+html,
+body {
+    max-width: 1200px;
+    color: ghostwhite;
+    font-family: "Space Mono", sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    margin: auto;
+}
+
+body {
+    height: 100%;
+    background-image: url("images/space.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* HEADER */
+
+.page-title {
+    text-align: center;
+    line-height: 2em;
+    margin: auto;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-image: url("images/spaceship.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 1em;
+}
+
+.page-title h1 {
+    display: inline-block;
+}
+
+/* MAIN */
