@@ -45,3 +45,25 @@ body {
 }
 
 /* MAIN */
+
+.main {
+    text-align: center;
+}
+
+/* PAGE DESCRIPTION */
+
+.page-description {
+    font-size: 0.8rem;
+    padding: 30px;
+}
+
+.learn-more {
+    color: darkorange;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin: 25px 0 0 0;
+}
+
+/* GALLERY */
+
